@@ -1,0 +1,11 @@
+network:
+  subnet: "192.168.119.0/24"
+  poll_interval_seconds: 10
+  offline_threshold_seconds: 120
+
+alerts:
+  desktop_notification: true
+
+app:
+  mode: demo  # demo | live
+  max_concurrent_pings: 50

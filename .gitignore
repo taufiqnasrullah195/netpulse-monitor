@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.db
+*.db-wal
+*.db-shm
+.env
+dist/
+build/
+*.spec
+*.egg-info/
+probe_imports.py
